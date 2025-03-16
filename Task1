@@ -1,0 +1,35 @@
+README.md
+# Task 1: Population Distribution by Age Group
+
+**Description:**
+This task involved visualizing the distribution of population across different age groups using Tableau. A bar chart was created to represent the population in millions for the age ranges: 0-20, 21-40, and 65+.
+
+**Dataset:**
+The data was provided in the "Sheet1 (Book)" data source and included the "Age Group" and "Population (Millions)" fields.
+
+**Tool Used:**
+Tableau Desktop
+
+**Visualization:**
+A bar chart was created with "Age Group" on the Columns shelf and "SUM(Population (Millions))" on the Rows shelf.
+
+**Results and Findings:**
+
+* The bar chart clearly shows the population distribution across the three age groups.
+* The 0-20 age group has the highest population (approximately 800 million).
+* The 21-40 age group has a significant population (approximately 500 million).
+* The 65+ age group has the lowest population (approximately 100 million).
+
+**Image of the Visualization:**
+(You can add a screenshot of your Tableau chart here by uploading the image to your repository and referencing it in the Markdown. For example: `![Population Distribution Chart](path/to/your/image.png)`)
+
+**Instructions to Recreate the Visualization:**
+
+1. Open Tableau Desktop.
+2. Connect to the "Sheet1 (Book)" data source.
+3. Drag "Age Group" to the Columns shelf.
+4. Drag "Population (Millions)" to the Rows shelf.
+5. Tableau will automatically create a bar chart.
+
+**Challenges Faced:**
+No significant challenges were encountered during this task.
