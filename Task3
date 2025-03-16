@@ -1,0 +1,62 @@
+# DS Task 3: Decision Tree Model on Bank Marketing Dataset
+
+## Introduction
+
+This document details the process and findings of building a Decision Tree model on the Bank Marketing dataset. The goal of this task was to develop a predictive model to determine whether a customer will subscribe to a term deposit based on various features.
+
+## Dataset
+
+The dataset used is the `bank-full.csv` file, which contains information about bank customers, including demographic, social, and economic attributes.
+
+## Steps Performed
+
+1.  **Data Loading:**
+    * Loaded the dataset using Pandas.
+    * Displayed the first few rows to get an overview of the data.
+
+2.  **Data Preprocessing:**
+    * Checked for missing values and handled them appropriately.
+    * Converted categorical variables into numerical representations using one-hot encoding or label encoding.
+    * Split the dataset into training and testing sets.
+
+3.  **Decision Tree Model Building:**
+    * Built a Decision Tree classifier using scikit-learn.
+    * Tuned hyperparameters (e.g., `max_depth`, `min_samples_split`) to optimize model performance.
+    * Visualized the decision tree.
+
+4.  **Model Evaluation:**
+    * Evaluated the model's performance using metrics such as accuracy, precision, recall, and F1-score.
+    * Generated a classification report and confusion matrix.
+
+## Key Findings and Interpretations
+
+1.  **Feature Importance:**
+    * The decision tree model identified the most important features that influence customer subscription.
+    * Features like `duration`, `poutcome`, and `contact` were significant predictors.
+
+2.  **Model Performance:**
+    * The model achieved a reasonable accuracy on the test set.
+    * The precision and recall scores varied depending on the class.
+    * The confusion matrix provided insights into the types of errors the model made.
+
+3.  **Decision Tree Visualization:**
+    * The visualized decision tree provided a clear understanding of the decision-making process.
+    * The tree showed the conditions under which customers were more likely to subscribe.
+
+4.  **Hyperparameter Tuning:**
+    * Tuning hyperparameters improved the model's performance.
+    * Finding the optimal balance between bias and variance was crucial.
+
+## Conclusion
+
+The Decision Tree model successfully predicted customer subscription to a term deposit, with key features like `duration` and `poutcome` playing significant roles. The model's performance was satisfactory, and hyperparameter tuning helped to optimize its predictive capabilities.
+
+## Recommendations
+
+* Further analysis could involve using more advanced machine learning models (e.g., Random Forest, Gradient Boosting).
+* Feature engineering could be explored to create new variables that might improve model performance.
+* Cross-validation could be used to ensure the model's robustness.
+
+## Code
+
+The Python code used for building and evaluating the Decision Tree model is available in the `Task3_code.ipynb` file in this repository.
